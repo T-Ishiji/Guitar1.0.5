@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord",
+    "version": "1.0.5",
+    "description": "Guitar chord extension for BBC micro:bit V2. Adds a 200ms same-direction stop-band guard after each strum so recoil toward center does not accidentally mute the chord. Retrigger edge detection remains active.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
